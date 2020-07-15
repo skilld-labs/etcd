@@ -38,7 +38,7 @@ require (
 	golang.org/x/crypto v0.0.0-20190510104115-cbcb75029529
 	golang.org/x/net v0.0.0-20191002035440-2ec189313ef0
 	golang.org/x/time v0.0.0-20200630173020-3af7569d3a1e
-	google.golang.org/grpc v1.29.1
+	google.golang.org/grpc v1.26.0
 	gopkg.in/cheggaaa/pb.v1 v1.0.28
 	gopkg.in/yaml.v2 v2.2.8
 	sigs.k8s.io/yaml v1.2.0
