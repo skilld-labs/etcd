@@ -23,11 +23,11 @@ import (
 	"sync/atomic"
 	"time"
 
-	"go.etcd.io/etcd/v3/clientv3"
-	"go.etcd.io/etcd/v3/etcdserver"
-	"go.etcd.io/etcd/v3/etcdserver/api/v3rpc/rpctypes"
-	"go.etcd.io/etcd/v3/functional/rpcpb"
-	"go.etcd.io/etcd/v3/raft"
+	"github.com/skilld-labs/etcd/v3/clientv3"
+	"github.com/skilld-labs/etcd/v3/etcdserver"
+	"github.com/skilld-labs/etcd/v3/etcdserver/api/v3rpc/rpctypes"
+	"github.com/skilld-labs/etcd/v3/functional/rpcpb"
+	"github.com/skilld-labs/etcd/v3/raft"
 
 	"go.uber.org/zap"
 	"golang.org/x/time/rate"

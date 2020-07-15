@@ -19,7 +19,7 @@ import (
 	"fmt"
 	"sync"
 
-	"go.etcd.io/etcd/v3/pkg/logutil"
+	"github.com/skilld-labs/etcd/v3/pkg/logutil"
 
 	"go.uber.org/zap"
 	"go.uber.org/zap/zapcore"

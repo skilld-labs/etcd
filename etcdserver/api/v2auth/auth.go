@@ -26,10 +26,10 @@ import (
 	"strings"
 	"time"
 
-	"go.etcd.io/etcd/v3/etcdserver"
-	"go.etcd.io/etcd/v3/etcdserver/api/v2error"
-	"go.etcd.io/etcd/v3/etcdserver/etcdserverpb"
-	"go.etcd.io/etcd/v3/pkg/types"
+	"github.com/skilld-labs/etcd/v3/etcdserver"
+	"github.com/skilld-labs/etcd/v3/etcdserver/api/v2error"
+	"github.com/skilld-labs/etcd/v3/etcdserver/etcdserverpb"
+	"github.com/skilld-labs/etcd/v3/pkg/types"
 
 	"go.uber.org/zap"
 	"golang.org/x/crypto/bcrypt"

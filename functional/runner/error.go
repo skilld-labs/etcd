@@ -18,7 +18,7 @@ import (
 	"fmt"
 	"os"
 
-	"go.etcd.io/etcd/v3/client"
+	"github.com/skilld-labs/etcd/v3/client"
 )
 
 const (

@@ -20,9 +20,9 @@ import (
 	"net/http"
 	"time"
 
-	"go.etcd.io/etcd/v3/clientv3"
-	"go.etcd.io/etcd/v3/etcdserver/api/etcdhttp"
-	"go.etcd.io/etcd/v3/etcdserver/api/v3rpc/rpctypes"
+	"github.com/skilld-labs/etcd/v3/clientv3"
+	"github.com/skilld-labs/etcd/v3/etcdserver/api/etcdhttp"
+	"github.com/skilld-labs/etcd/v3/etcdserver/api/v3rpc/rpctypes"
 	"go.uber.org/zap"
 )
 

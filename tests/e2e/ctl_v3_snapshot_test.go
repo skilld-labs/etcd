@@ -25,9 +25,9 @@ import (
 	"testing"
 	"time"
 
-	"go.etcd.io/etcd/v3/clientv3/snapshot"
-	"go.etcd.io/etcd/v3/pkg/expect"
-	"go.etcd.io/etcd/v3/pkg/testutil"
+	"github.com/skilld-labs/etcd/v3/clientv3/snapshot"
+	"github.com/skilld-labs/etcd/v3/pkg/expect"
+	"github.com/skilld-labs/etcd/v3/pkg/testutil"
 )
 
 func TestCtlV3Snapshot(t *testing.T) { testCtl(t, snapshotTest) }

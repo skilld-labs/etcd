@@ -21,12 +21,12 @@ import (
 	"testing"
 	"time"
 
-	"go.etcd.io/etcd/v3/etcdserver/api/membership"
-	"go.etcd.io/etcd/v3/pkg/mock/mockstorage"
-	"go.etcd.io/etcd/v3/pkg/pbutil"
-	"go.etcd.io/etcd/v3/pkg/types"
-	"go.etcd.io/etcd/v3/raft"
-	"go.etcd.io/etcd/v3/raft/raftpb"
+	"github.com/skilld-labs/etcd/v3/etcdserver/api/membership"
+	"github.com/skilld-labs/etcd/v3/pkg/mock/mockstorage"
+	"github.com/skilld-labs/etcd/v3/pkg/pbutil"
+	"github.com/skilld-labs/etcd/v3/pkg/types"
+	"github.com/skilld-labs/etcd/v3/raft"
+	"github.com/skilld-labs/etcd/v3/raft/raftpb"
 	"go.uber.org/zap"
 )
 

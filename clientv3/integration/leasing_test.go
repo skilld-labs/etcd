@@ -23,11 +23,11 @@ import (
 	"testing"
 	"time"
 
-	"go.etcd.io/etcd/v3/clientv3"
-	"go.etcd.io/etcd/v3/clientv3/concurrency"
-	"go.etcd.io/etcd/v3/clientv3/leasing"
-	"go.etcd.io/etcd/v3/integration"
-	"go.etcd.io/etcd/v3/pkg/testutil"
+	"github.com/skilld-labs/etcd/v3/clientv3"
+	"github.com/skilld-labs/etcd/v3/clientv3/concurrency"
+	"github.com/skilld-labs/etcd/v3/clientv3/leasing"
+	"github.com/skilld-labs/etcd/v3/integration"
+	"github.com/skilld-labs/etcd/v3/pkg/testutil"
 )
 
 func TestLeasingPutGet(t *testing.T) {

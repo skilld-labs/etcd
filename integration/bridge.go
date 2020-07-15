@@ -21,7 +21,7 @@ import (
 	"net"
 	"sync"
 
-	"go.etcd.io/etcd/v3/pkg/transport"
+	"github.com/skilld-labs/etcd/v3/pkg/transport"
 )
 
 // bridge creates a unix socket bridge to another unix socket, making it possible

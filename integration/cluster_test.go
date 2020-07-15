@@ -25,9 +25,9 @@ import (
 	"testing"
 	"time"
 
-	"go.etcd.io/etcd/v3/client"
-	"go.etcd.io/etcd/v3/etcdserver"
-	"go.etcd.io/etcd/v3/pkg/testutil"
+	"github.com/skilld-labs/etcd/v3/client"
+	"github.com/skilld-labs/etcd/v3/etcdserver"
+	"github.com/skilld-labs/etcd/v3/pkg/testutil"
 )
 
 func init() {

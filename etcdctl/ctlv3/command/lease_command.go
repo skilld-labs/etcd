@@ -19,7 +19,7 @@ import (
 	"fmt"
 	"strconv"
 
-	v3 "go.etcd.io/etcd/v3/clientv3"
+	v3 "github.com/skilld-labs/etcd/v3/clientv3"
 
 	"github.com/spf13/cobra"
 )

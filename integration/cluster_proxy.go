@@ -19,10 +19,10 @@ package integration
 import (
 	"sync"
 
-	"go.etcd.io/etcd/v3/clientv3"
-	"go.etcd.io/etcd/v3/clientv3/namespace"
-	"go.etcd.io/etcd/v3/proxy/grpcproxy"
-	"go.etcd.io/etcd/v3/proxy/grpcproxy/adapter"
+	"github.com/skilld-labs/etcd/v3/clientv3"
+	"github.com/skilld-labs/etcd/v3/clientv3/namespace"
+	"github.com/skilld-labs/etcd/v3/proxy/grpcproxy"
+	"github.com/skilld-labs/etcd/v3/proxy/grpcproxy/adapter"
 
 	"go.uber.org/zap"
 )

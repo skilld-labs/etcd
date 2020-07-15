@@ -8,7 +8,7 @@ import (
 	"os"
 	"testing"
 
-	"go.etcd.io/etcd/v3/pkg/testutil"
+	"github.com/skilld-labs/etcd/v3/pkg/testutil"
 )
 
 func TestMain(m *testing.M) {

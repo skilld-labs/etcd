@@ -15,8 +15,8 @@
 package api
 
 import (
-	"go.etcd.io/etcd/v3/etcdserver/api/membership"
-	"go.etcd.io/etcd/v3/pkg/types"
+	"github.com/skilld-labs/etcd/v3/etcdserver/api/membership"
+	"github.com/skilld-labs/etcd/v3/pkg/types"
 
 	"github.com/coreos/go-semver/semver"
 )

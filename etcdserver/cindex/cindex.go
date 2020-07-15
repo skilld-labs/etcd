@@ -19,7 +19,7 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"go.etcd.io/etcd/v3/mvcc/backend"
+	"github.com/skilld-labs/etcd/v3/mvcc/backend"
 )
 
 var (

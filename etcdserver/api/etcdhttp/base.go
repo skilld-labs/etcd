@@ -20,11 +20,11 @@ import (
 	"fmt"
 	"net/http"
 
-	"go.etcd.io/etcd/v3/etcdserver"
-	"go.etcd.io/etcd/v3/etcdserver/api"
-	"go.etcd.io/etcd/v3/etcdserver/api/v2error"
-	"go.etcd.io/etcd/v3/etcdserver/api/v2http/httptypes"
-	"go.etcd.io/etcd/v3/version"
+	"github.com/skilld-labs/etcd/v3/etcdserver"
+	"github.com/skilld-labs/etcd/v3/etcdserver/api"
+	"github.com/skilld-labs/etcd/v3/etcdserver/api/v2error"
+	"github.com/skilld-labs/etcd/v3/etcdserver/api/v2http/httptypes"
+	"github.com/skilld-labs/etcd/v3/version"
 	"go.uber.org/zap"
 )
 

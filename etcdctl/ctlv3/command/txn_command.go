@@ -22,8 +22,8 @@ import (
 	"strconv"
 	"strings"
 
-	"go.etcd.io/etcd/v3/clientv3"
-	pb "go.etcd.io/etcd/v3/etcdserver/etcdserverpb"
+	"github.com/skilld-labs/etcd/v3/clientv3"
+	pb "github.com/skilld-labs/etcd/v3/etcdserver/etcdserverpb"
 
 	"github.com/spf13/cobra"
 )

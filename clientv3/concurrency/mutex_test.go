@@ -18,8 +18,8 @@ import (
 	"context"
 	"testing"
 
-	"go.etcd.io/etcd/v3/clientv3"
-	"go.etcd.io/etcd/v3/clientv3/concurrency"
+	"github.com/skilld-labs/etcd/v3/clientv3"
+	"github.com/skilld-labs/etcd/v3/clientv3/concurrency"
 )
 
 func TestMutexLockSessionExpired(t *testing.T) {

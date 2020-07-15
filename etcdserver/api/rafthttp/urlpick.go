@@ -18,7 +18,7 @@ import (
 	"net/url"
 	"sync"
 
-	"go.etcd.io/etcd/v3/pkg/types"
+	"github.com/skilld-labs/etcd/v3/pkg/types"
 )
 
 type urlPicker struct {

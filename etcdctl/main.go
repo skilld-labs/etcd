@@ -19,8 +19,8 @@ import (
 	"fmt"
 	"os"
 
-	"go.etcd.io/etcd/v3/etcdctl/ctlv2"
-	"go.etcd.io/etcd/v3/etcdctl/ctlv3"
+	"github.com/skilld-labs/etcd/v3/etcdctl/ctlv2"
+	"github.com/skilld-labs/etcd/v3/etcdctl/ctlv3"
 )
 
 const (

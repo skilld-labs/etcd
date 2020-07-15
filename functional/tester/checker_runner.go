@@ -14,7 +14,7 @@
 
 package tester
 
-import "go.etcd.io/etcd/v3/functional/rpcpb"
+import "github.com/skilld-labs/etcd/v3/functional/rpcpb"
 
 type runnerChecker struct {
 	ctype              rpcpb.Checker

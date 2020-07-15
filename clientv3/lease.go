@@ -19,8 +19,8 @@ import (
 	"sync"
 	"time"
 
-	"go.etcd.io/etcd/v3/etcdserver/api/v3rpc/rpctypes"
-	pb "go.etcd.io/etcd/v3/etcdserver/etcdserverpb"
+	"github.com/skilld-labs/etcd/v3/etcdserver/api/v3rpc/rpctypes"
+	pb "github.com/skilld-labs/etcd/v3/etcdserver/etcdserverpb"
 
 	"go.uber.org/zap"
 	"google.golang.org/grpc"

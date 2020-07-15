@@ -20,7 +20,7 @@ import (
 	"strings"
 	"testing"
 
-	pb "go.etcd.io/etcd/v3/raft/raftpb"
+	pb "github.com/skilld-labs/etcd/v3/raft/raftpb"
 )
 
 var testFormatter EntryFormatter = func(data []byte) string {
