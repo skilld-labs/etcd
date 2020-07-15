@@ -35,12 +35,11 @@ require (
 	github.com/xiang90/probing v0.0.0-20190116061207-43a291ad63a2
 	go.etcd.io/bbolt v1.3.5
 	go.uber.org/zap v1.15.0
-	golang.org/x/crypto v0.0.0-20200709230013-948cd5f35899
-	golang.org/x/net v0.0.0-20200707034311-ab3426394381
+	golang.org/x/crypto v0.0.0-20190510104115-cbcb75029529
+	golang.org/x/net v0.0.0-20191002035440-2ec189313ef0
 	golang.org/x/time v0.0.0-20200630173020-3af7569d3a1e
-	google.golang.org/grpc v1.30.0
-	google.golang.org/grpc/examples v0.0.0-20200715174105-46d42f139d84 // indirect
+	google.golang.org/grpc v1.29.1
 	gopkg.in/cheggaaa/pb.v1 v1.0.28
-	gopkg.in/yaml.v2 v2.3.0
+	gopkg.in/yaml.v2 v2.2.8
 	sigs.k8s.io/yaml v1.2.0
 )
