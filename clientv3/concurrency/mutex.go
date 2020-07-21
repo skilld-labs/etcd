@@ -18,8 +18,8 @@ import (
 	"fmt"
 	"sync"
 
-	v3 "github.com/coreos/etcd/clientv3"
-	pb "github.com/coreos/etcd/etcdserver/etcdserverpb"
+	v3 "github.com/skilld-labs/etcd/clientv3"
+	pb "github.com/skilld-labs/etcd/etcdserver/etcdserverpb"
 
 	"golang.org/x/net/context"
 )

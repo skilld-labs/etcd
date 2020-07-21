@@ -22,14 +22,14 @@ import (
 	"strings"
 	"time"
 
-	etcdErr "github.com/coreos/etcd/error"
-	"github.com/coreos/etcd/etcdserver"
-	"github.com/coreos/etcd/etcdserver/api"
-	"github.com/coreos/etcd/etcdserver/api/v2http/httptypes"
-	"github.com/coreos/etcd/etcdserver/etcdserverpb"
-	"github.com/coreos/etcd/pkg/logutil"
-	"github.com/coreos/etcd/raft"
-	"github.com/coreos/etcd/version"
+	etcdErr "github.com/skilld-labs/etcd/error"
+	"github.com/skilld-labs/etcd/etcdserver"
+	"github.com/skilld-labs/etcd/etcdserver/api"
+	"github.com/skilld-labs/etcd/etcdserver/api/v2http/httptypes"
+	"github.com/skilld-labs/etcd/etcdserver/etcdserverpb"
+	"github.com/skilld-labs/etcd/pkg/logutil"
+	"github.com/skilld-labs/etcd/raft"
+	"github.com/skilld-labs/etcd/version"
 
 	"github.com/coreos/pkg/capnslog"
 	"github.com/prometheus/client_golang/prometheus"
@@ -37,7 +37,7 @@ import (
 )
 
 var (
-	plog = capnslog.NewPackageLogger("github.com/coreos/etcd", "etcdserver/api/etcdhttp")
+	plog = capnslog.NewPackageLogger("github.com/skilld-labs/etcd", "etcdserver/api/etcdhttp")
 	mlog = logutil.NewMergeLogger(plog)
 )
 

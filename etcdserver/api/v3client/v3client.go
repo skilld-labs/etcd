@@ -17,10 +17,10 @@ package v3client
 import (
 	"time"
 
-	"github.com/coreos/etcd/clientv3"
-	"github.com/coreos/etcd/etcdserver"
-	"github.com/coreos/etcd/etcdserver/api/v3rpc"
-	"github.com/coreos/etcd/proxy/grpcproxy/adapter"
+	"github.com/skilld-labs/etcd/clientv3"
+	"github.com/skilld-labs/etcd/etcdserver"
+	"github.com/skilld-labs/etcd/etcdserver/api/v3rpc"
+	"github.com/skilld-labs/etcd/proxy/grpcproxy/adapter"
 
 	"golang.org/x/net/context"
 )

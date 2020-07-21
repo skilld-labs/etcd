@@ -163,7 +163,7 @@ tester-config:
   case-shuffle: true
 
   # For full descriptions,
-  # http://godoc.org/github.com/coreos/etcd/functional/rpcpb#Case
+  # http://godoc.org/github.com/skilld-labs/etcd/functional/rpcpb#Case
   cases:
   - SIGTERM_ONE_FOLLOWER
   - SIGTERM_ONE_FOLLOWER_UNTIL_TRIGGER_SNAPSHOT

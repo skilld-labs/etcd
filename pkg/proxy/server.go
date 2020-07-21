@@ -25,7 +25,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/coreos/etcd/pkg/transport"
+	"github.com/skilld-labs/etcd/pkg/transport"
 
 	humanize "github.com/dustin/go-humanize"
 	"go.uber.org/zap"
@@ -246,8 +246,8 @@ func (p *proxyServer) To() string {
 
 // TODO: implement packet reordering from multiple TCP connections
 // buffer packets per connection for awhile, reorder before transmit
-// - https://github.com/coreos/etcd/issues/5614
-// - https://github.com/coreos/etcd/pull/6918#issuecomment-264093034
+// - https://github.com/skilld-labs/etcd/issues/5614
+// - https://github.com/skilld-labs/etcd/pull/6918#issuecomment-264093034
 
 func (p *proxyServer) listenAndServe() {
 	defer p.closeWg.Done()

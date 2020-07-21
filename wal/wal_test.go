@@ -23,10 +23,10 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/coreos/etcd/pkg/fileutil"
-	"github.com/coreos/etcd/pkg/pbutil"
-	"github.com/coreos/etcd/raft/raftpb"
-	"github.com/coreos/etcd/wal/walpb"
+	"github.com/skilld-labs/etcd/pkg/fileutil"
+	"github.com/skilld-labs/etcd/pkg/pbutil"
+	"github.com/skilld-labs/etcd/raft/raftpb"
+	"github.com/skilld-labs/etcd/wal/walpb"
 )
 
 func TestNew(t *testing.T) {

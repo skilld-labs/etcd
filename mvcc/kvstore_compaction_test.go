@@ -20,8 +20,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/coreos/etcd/lease"
-	"github.com/coreos/etcd/mvcc/backend"
+	"github.com/skilld-labs/etcd/lease"
+	"github.com/skilld-labs/etcd/mvcc/backend"
 )
 
 func TestScheduleCompaction(t *testing.T) {

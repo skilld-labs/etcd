@@ -17,9 +17,9 @@ package command
 import (
 	"fmt"
 
-	v3 "github.com/coreos/etcd/clientv3"
-	pb "github.com/coreos/etcd/etcdserver/etcdserverpb"
-	spb "github.com/coreos/etcd/mvcc/mvccpb"
+	v3 "github.com/skilld-labs/etcd/clientv3"
+	pb "github.com/skilld-labs/etcd/etcdserver/etcdserverpb"
+	spb "github.com/skilld-labs/etcd/mvcc/mvccpb"
 )
 
 type fieldsPrinter struct{ printer }

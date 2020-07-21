@@ -18,11 +18,11 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/coreos/etcd/clientv3"
-	"github.com/coreos/etcd/clientv3/namespace"
-	"github.com/coreos/etcd/integration"
-	"github.com/coreos/etcd/mvcc/mvccpb"
-	"github.com/coreos/etcd/pkg/testutil"
+	"github.com/skilld-labs/etcd/clientv3"
+	"github.com/skilld-labs/etcd/clientv3/namespace"
+	"github.com/skilld-labs/etcd/integration"
+	"github.com/skilld-labs/etcd/mvcc/mvccpb"
+	"github.com/skilld-labs/etcd/pkg/testutil"
 
 	"golang.org/x/net/context"
 )

@@ -17,8 +17,8 @@ package clientv3util_test
 import (
 	"log"
 
-	"github.com/coreos/etcd/clientv3"
-	"github.com/coreos/etcd/clientv3/clientv3util"
+	"github.com/skilld-labs/etcd/clientv3"
+	"github.com/skilld-labs/etcd/clientv3/clientv3util"
 
 	"golang.org/x/net/context"
 )

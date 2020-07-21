@@ -21,12 +21,12 @@ import (
 
 	"golang.org/x/net/context"
 
-	"github.com/coreos/etcd/auth"
-	"github.com/coreos/etcd/etcdserver"
-	"github.com/coreos/etcd/etcdserver/api/v3rpc/rpctypes"
-	pb "github.com/coreos/etcd/etcdserver/etcdserverpb"
-	"github.com/coreos/etcd/mvcc"
-	"github.com/coreos/etcd/mvcc/mvccpb"
+	"github.com/skilld-labs/etcd/auth"
+	"github.com/skilld-labs/etcd/etcdserver"
+	"github.com/skilld-labs/etcd/etcdserver/api/v3rpc/rpctypes"
+	pb "github.com/skilld-labs/etcd/etcdserver/etcdserverpb"
+	"github.com/skilld-labs/etcd/mvcc"
+	"github.com/skilld-labs/etcd/mvcc/mvccpb"
 )
 
 type watchServer struct {

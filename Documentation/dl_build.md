@@ -17,7 +17,7 @@ For those wanting to try the very latest version, build etcd from the `master` b
 To build `etcd` from the `master` branch without a `GOPATH` using the official `build` script:
 
 ```sh
-$ git clone https://github.com/coreos/etcd.git
+$ git clone https://github.com/skilld-labs/etcd.git
 $ cd etcd
 $ ./build
 $ ./bin/etcd
@@ -29,7 +29,7 @@ To build a vendored `etcd` from the `master` branch via `go get`:
 # GOPATH should be set
 $ echo $GOPATH
 /Users/example/go
-$ go get github.com/coreos/etcd/cmd/etcd
+$ go get github.com/skilld-labs/etcd/cmd/etcd
 $ $GOPATH/bin/etcd
 ```
 
@@ -39,7 +39,7 @@ To build `etcd` from the `master` branch without vendoring (may not build due to
 # GOPATH should be set
 $ echo $GOPATH
 /Users/example/go
-$ go get github.com/coreos/etcd
+$ go get github.com/skilld-labs/etcd
 $ $GOPATH/bin/etcd
 ```
 
@@ -62,7 +62,7 @@ OK
 
 If OK is printed, then etcd is working!
 
-[github-release]: https://github.com/coreos/etcd/releases/
+[github-release]: https://github.com/skilld-labs/etcd/releases/
 [go]: https://golang.org/doc/install
 [build-script]: ../build
 [cmd-directory]: ../cmd

@@ -19,7 +19,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/coreos/etcd/version"
+	"github.com/skilld-labs/etcd/version"
 )
 
 func TestV3Metrics(t *testing.T) {

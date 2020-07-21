@@ -18,9 +18,9 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/coreos/etcd/integration"
-	"github.com/coreos/etcd/pkg/testutil"
-	"github.com/coreos/etcd/pkg/types"
+	"github.com/skilld-labs/etcd/integration"
+	"github.com/skilld-labs/etcd/pkg/testutil"
+	"github.com/skilld-labs/etcd/pkg/types"
 
 	"golang.org/x/net/context"
 )

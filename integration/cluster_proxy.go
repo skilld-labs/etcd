@@ -19,11 +19,11 @@ package integration
 import (
 	"sync"
 
-	"github.com/coreos/etcd/clientv3"
-	"github.com/coreos/etcd/clientv3/namespace"
-	pb "github.com/coreos/etcd/etcdserver/etcdserverpb"
-	"github.com/coreos/etcd/proxy/grpcproxy"
-	"github.com/coreos/etcd/proxy/grpcproxy/adapter"
+	"github.com/skilld-labs/etcd/clientv3"
+	"github.com/skilld-labs/etcd/clientv3/namespace"
+	pb "github.com/skilld-labs/etcd/etcdserver/etcdserverpb"
+	"github.com/skilld-labs/etcd/proxy/grpcproxy"
+	"github.com/skilld-labs/etcd/proxy/grpcproxy/adapter"
 )
 
 var (

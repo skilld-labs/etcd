@@ -22,9 +22,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/coreos/etcd/auth/authpb"
-	pb "github.com/coreos/etcd/etcdserver/etcdserverpb"
-	"github.com/coreos/etcd/mvcc/backend"
+	"github.com/skilld-labs/etcd/auth/authpb"
+	pb "github.com/skilld-labs/etcd/etcdserver/etcdserverpb"
+	"github.com/skilld-labs/etcd/mvcc/backend"
 
 	"golang.org/x/crypto/bcrypt"
 	"golang.org/x/net/context"

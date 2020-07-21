@@ -20,10 +20,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/coreos/etcd/etcdserver/stats"
-	"github.com/coreos/etcd/pkg/types"
-	"github.com/coreos/etcd/raft"
-	"github.com/coreos/etcd/raft/raftpb"
+	"github.com/skilld-labs/etcd/etcdserver/stats"
+	"github.com/skilld-labs/etcd/pkg/types"
+	"github.com/skilld-labs/etcd/raft"
+	"github.com/skilld-labs/etcd/raft/raftpb"
 	"golang.org/x/net/context"
 )
 

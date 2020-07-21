@@ -20,11 +20,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/coreos/etcd/clientv3"
-	pb "github.com/coreos/etcd/etcdserver/etcdserverpb"
-	"github.com/coreos/etcd/integration"
-	"github.com/coreos/etcd/pkg/testutil"
-	"github.com/coreos/etcd/pkg/transport"
+	"github.com/skilld-labs/etcd/clientv3"
+	pb "github.com/skilld-labs/etcd/etcdserver/etcdserverpb"
+	"github.com/skilld-labs/etcd/integration"
+	"github.com/skilld-labs/etcd/pkg/testutil"
+	"github.com/skilld-labs/etcd/pkg/transport"
 
 	"golang.org/x/net/context"
 )

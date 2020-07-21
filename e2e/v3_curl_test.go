@@ -19,9 +19,9 @@ import (
 	"path"
 	"testing"
 
-	epb "github.com/coreos/etcd/etcdserver/api/v3election/v3electionpb"
-	pb "github.com/coreos/etcd/etcdserver/etcdserverpb"
-	"github.com/coreos/etcd/pkg/testutil"
+	epb "github.com/skilld-labs/etcd/etcdserver/api/v3election/v3electionpb"
+	pb "github.com/skilld-labs/etcd/etcdserver/etcdserverpb"
+	"github.com/skilld-labs/etcd/pkg/testutil"
 
 	"github.com/grpc-ecosystem/grpc-gateway/runtime"
 )

@@ -19,8 +19,8 @@ import (
 	"os"
 	"time"
 
-	"github.com/coreos/etcd/clientv3"
-	"github.com/coreos/etcd/pkg/transport"
+	"github.com/skilld-labs/etcd/clientv3"
+	"github.com/skilld-labs/etcd/pkg/transport"
 
 	"golang.org/x/net/context"
 	"google.golang.org/grpc/grpclog"

@@ -20,9 +20,9 @@ import (
 	"errors"
 	"sync"
 
-	"github.com/coreos/etcd/etcdserver/api/v3rpc/rpctypes"
-	pb "github.com/coreos/etcd/etcdserver/etcdserverpb"
-	"github.com/coreos/etcd/pkg/adt"
+	"github.com/skilld-labs/etcd/etcdserver/api/v3rpc/rpctypes"
+	pb "github.com/skilld-labs/etcd/etcdserver/etcdserverpb"
+	"github.com/skilld-labs/etcd/pkg/adt"
 	"github.com/golang/groupcache/lru"
 )
 

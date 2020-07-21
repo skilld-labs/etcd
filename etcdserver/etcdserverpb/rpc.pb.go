@@ -11,9 +11,9 @@ import (
 
 	math "math"
 
-	mvccpb "github.com/coreos/etcd/mvcc/mvccpb"
+	mvccpb "github.com/skilld-labs/etcd/mvcc/mvccpb"
 
-	authpb "github.com/coreos/etcd/auth/authpb"
+	authpb "github.com/skilld-labs/etcd/auth/authpb"
 
 	_ "google.golang.org/genproto/googleapis/api/annotations"
 

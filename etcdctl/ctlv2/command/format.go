@@ -19,7 +19,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/coreos/etcd/client"
+	"github.com/skilld-labs/etcd/client"
 )
 
 // printResponseKey only supports to print key correctly.

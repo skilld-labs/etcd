@@ -17,12 +17,12 @@ package v3rpc
 import (
 	"strings"
 
-	"github.com/coreos/etcd/auth"
-	"github.com/coreos/etcd/etcdserver"
-	"github.com/coreos/etcd/etcdserver/api/v3rpc/rpctypes"
-	"github.com/coreos/etcd/etcdserver/membership"
-	"github.com/coreos/etcd/lease"
-	"github.com/coreos/etcd/mvcc"
+	"github.com/skilld-labs/etcd/auth"
+	"github.com/skilld-labs/etcd/etcdserver"
+	"github.com/skilld-labs/etcd/etcdserver/api/v3rpc/rpctypes"
+	"github.com/skilld-labs/etcd/etcdserver/membership"
+	"github.com/skilld-labs/etcd/lease"
+	"github.com/skilld-labs/etcd/mvcc"
 
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/codes"

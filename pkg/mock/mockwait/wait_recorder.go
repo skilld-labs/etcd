@@ -15,8 +15,8 @@
 package mockwait
 
 import (
-	"github.com/coreos/etcd/pkg/testutil"
-	"github.com/coreos/etcd/pkg/wait"
+	"github.com/skilld-labs/etcd/pkg/testutil"
+	"github.com/skilld-labs/etcd/pkg/wait"
 )
 
 type WaitRecorder struct {

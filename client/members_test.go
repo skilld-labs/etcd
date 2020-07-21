@@ -24,7 +24,7 @@ import (
 
 	"golang.org/x/net/context"
 
-	"github.com/coreos/etcd/pkg/types"
+	"github.com/skilld-labs/etcd/pkg/types"
 )
 
 func TestMembersAPIActionList(t *testing.T) {

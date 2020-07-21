@@ -28,7 +28,7 @@ import (
 	"github.com/jonboulle/clockwork"
 	"golang.org/x/net/context"
 
-	"github.com/coreos/etcd/client"
+	"github.com/skilld-labs/etcd/client"
 )
 
 const (

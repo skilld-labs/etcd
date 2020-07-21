@@ -20,13 +20,13 @@ import (
 	"path/filepath"
 	"time"
 
-	"github.com/coreos/etcd/etcdserver/etcdserverpb"
-	"github.com/coreos/etcd/pkg/fileutil"
-	"github.com/coreos/etcd/pkg/idutil"
-	"github.com/coreos/etcd/pkg/pbutil"
-	"github.com/coreos/etcd/snap"
-	"github.com/coreos/etcd/wal"
-	"github.com/coreos/etcd/wal/walpb"
+	"github.com/skilld-labs/etcd/etcdserver/etcdserverpb"
+	"github.com/skilld-labs/etcd/pkg/fileutil"
+	"github.com/skilld-labs/etcd/pkg/idutil"
+	"github.com/skilld-labs/etcd/pkg/pbutil"
+	"github.com/skilld-labs/etcd/snap"
+	"github.com/skilld-labs/etcd/wal"
+	"github.com/skilld-labs/etcd/wal/walpb"
 	"github.com/urfave/cli"
 )
 

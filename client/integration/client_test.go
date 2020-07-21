@@ -25,9 +25,9 @@ import (
 
 	"golang.org/x/net/context"
 
-	"github.com/coreos/etcd/client"
-	"github.com/coreos/etcd/integration"
-	"github.com/coreos/etcd/pkg/testutil"
+	"github.com/skilld-labs/etcd/client"
+	"github.com/skilld-labs/etcd/integration"
+	"github.com/skilld-labs/etcd/pkg/testutil"
 )
 
 // TestV2NoRetryEOF tests destructive api calls won't retry on a disconnection.

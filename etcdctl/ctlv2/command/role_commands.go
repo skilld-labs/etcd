@@ -20,8 +20,8 @@ import (
 	"reflect"
 	"strings"
 
-	"github.com/coreos/etcd/client"
-	"github.com/coreos/etcd/pkg/pathutil"
+	"github.com/skilld-labs/etcd/client"
+	"github.com/skilld-labs/etcd/pkg/pathutil"
 	"github.com/urfave/cli"
 )
 

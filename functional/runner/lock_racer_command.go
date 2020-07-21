@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/coreos/etcd/clientv3/concurrency"
+	"github.com/skilld-labs/etcd/clientv3/concurrency"
 
 	"github.com/spf13/cobra"
 )

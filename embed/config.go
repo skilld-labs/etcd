@@ -24,13 +24,13 @@ import (
 	"strings"
 	"time"
 
-	"github.com/coreos/etcd/etcdserver"
-	"github.com/coreos/etcd/pkg/cors"
-	"github.com/coreos/etcd/pkg/netutil"
-	"github.com/coreos/etcd/pkg/srv"
-	"github.com/coreos/etcd/pkg/tlsutil"
-	"github.com/coreos/etcd/pkg/transport"
-	"github.com/coreos/etcd/pkg/types"
+	"github.com/skilld-labs/etcd/etcdserver"
+	"github.com/skilld-labs/etcd/pkg/cors"
+	"github.com/skilld-labs/etcd/pkg/netutil"
+	"github.com/skilld-labs/etcd/pkg/srv"
+	"github.com/skilld-labs/etcd/pkg/tlsutil"
+	"github.com/skilld-labs/etcd/pkg/transport"
+	"github.com/skilld-labs/etcd/pkg/types"
 
 	"github.com/ghodss/yaml"
 	"google.golang.org/grpc"
@@ -118,7 +118,7 @@ type Config struct {
 	//
 	// If single-node, it advances ticks regardless.
 	//
-	// See https://github.com/coreos/etcd/issues/9333 for more detail.
+	// See https://github.com/skilld-labs/etcd/issues/9333 for more detail.
 	InitialElectionTickAdvance bool `json:"initial-election-tick-advance"`
 
 	QuotaBackendBytes int64 `json:"quota-backend-bytes"`

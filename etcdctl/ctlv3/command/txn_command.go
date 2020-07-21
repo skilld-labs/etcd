@@ -21,7 +21,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/coreos/etcd/clientv3"
+	"github.com/skilld-labs/etcd/clientv3"
 	"github.com/spf13/cobra"
 	"golang.org/x/net/context"
 )

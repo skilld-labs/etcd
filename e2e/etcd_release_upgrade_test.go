@@ -21,9 +21,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/coreos/etcd/pkg/fileutil"
-	"github.com/coreos/etcd/pkg/testutil"
-	"github.com/coreos/etcd/version"
+	"github.com/skilld-labs/etcd/pkg/fileutil"
+	"github.com/skilld-labs/etcd/pkg/testutil"
+	"github.com/skilld-labs/etcd/version"
 )
 
 // TestReleaseUpgrade ensures that changes to master branch does not affect

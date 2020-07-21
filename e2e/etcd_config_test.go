@@ -21,7 +21,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/coreos/etcd/pkg/expect"
+	"github.com/skilld-labs/etcd/pkg/expect"
 )
 
 const exampleConfigFile = "../etcd.conf.yml.sample"

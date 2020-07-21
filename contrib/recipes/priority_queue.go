@@ -17,8 +17,8 @@ package recipe
 import (
 	"fmt"
 
-	v3 "github.com/coreos/etcd/clientv3"
-	"github.com/coreos/etcd/mvcc/mvccpb"
+	v3 "github.com/skilld-labs/etcd/clientv3"
+	"github.com/skilld-labs/etcd/mvcc/mvccpb"
 	"golang.org/x/net/context"
 )
 

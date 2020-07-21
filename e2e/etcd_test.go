@@ -22,9 +22,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/coreos/etcd/etcdserver"
-	"github.com/coreos/etcd/pkg/expect"
-	"github.com/coreos/etcd/pkg/fileutil"
+	"github.com/skilld-labs/etcd/etcdserver"
+	"github.com/skilld-labs/etcd/pkg/expect"
+	"github.com/skilld-labs/etcd/pkg/fileutil"
 )
 
 const etcdProcessBasePort = 20000

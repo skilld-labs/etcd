@@ -26,7 +26,7 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/coreos/etcd/pkg/proxy"
+	"github.com/skilld-labs/etcd/pkg/proxy"
 
 	"go.uber.org/zap"
 )

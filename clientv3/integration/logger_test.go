@@ -17,7 +17,7 @@ package integration
 import (
 	"io/ioutil"
 
-	"github.com/coreos/etcd/clientv3"
+	"github.com/skilld-labs/etcd/clientv3"
 
 	"github.com/coreos/pkg/capnslog"
 	"google.golang.org/grpc/grpclog"

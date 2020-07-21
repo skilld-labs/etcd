@@ -19,7 +19,7 @@ package wal
 import (
 	"os"
 
-	"github.com/coreos/etcd/pkg/fileutil"
+	"github.com/skilld-labs/etcd/pkg/fileutil"
 )
 
 func (w *WAL) renameWal(tmpdirpath string) (*WAL, error) {

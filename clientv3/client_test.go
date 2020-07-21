@@ -20,8 +20,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/coreos/etcd/etcdserver/api/v3rpc/rpctypes"
-	"github.com/coreos/etcd/pkg/testutil"
+	"github.com/skilld-labs/etcd/etcdserver/api/v3rpc/rpctypes"
+	"github.com/skilld-labs/etcd/pkg/testutil"
 
 	"golang.org/x/net/context"
 )

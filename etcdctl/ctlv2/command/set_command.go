@@ -19,7 +19,7 @@ import (
 	"os"
 	"time"
 
-	"github.com/coreos/etcd/client"
+	"github.com/skilld-labs/etcd/client"
 	"github.com/urfave/cli"
 )
 

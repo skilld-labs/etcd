@@ -19,8 +19,8 @@ import (
 	"os"
 	"strings"
 
-	v3 "github.com/coreos/etcd/clientv3"
-	pb "github.com/coreos/etcd/etcdserver/etcdserverpb"
+	v3 "github.com/skilld-labs/etcd/clientv3"
+	pb "github.com/skilld-labs/etcd/etcdserver/etcdserverpb"
 )
 
 type simplePrinter struct {

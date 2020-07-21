@@ -19,9 +19,9 @@ import (
 	"reflect"
 	"testing"
 
-	etcd "github.com/coreos/etcd/clientv3"
-	"github.com/coreos/etcd/integration"
-	"github.com/coreos/etcd/pkg/testutil"
+	etcd "github.com/skilld-labs/etcd/clientv3"
+	"github.com/skilld-labs/etcd/integration"
+	"github.com/skilld-labs/etcd/pkg/testutil"
 
 	"golang.org/x/net/context"
 	"google.golang.org/grpc/naming"

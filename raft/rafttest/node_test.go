@@ -18,7 +18,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/coreos/etcd/raft"
+	"github.com/skilld-labs/etcd/raft"
 	"golang.org/x/net/context"
 )
 

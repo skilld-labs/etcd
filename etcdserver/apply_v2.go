@@ -19,11 +19,11 @@ import (
 	"path"
 	"time"
 
-	"github.com/coreos/etcd/etcdserver/api"
-	pb "github.com/coreos/etcd/etcdserver/etcdserverpb"
-	"github.com/coreos/etcd/etcdserver/membership"
-	"github.com/coreos/etcd/pkg/pbutil"
-	"github.com/coreos/etcd/store"
+	"github.com/skilld-labs/etcd/etcdserver/api"
+	pb "github.com/skilld-labs/etcd/etcdserver/etcdserverpb"
+	"github.com/skilld-labs/etcd/etcdserver/membership"
+	"github.com/skilld-labs/etcd/pkg/pbutil"
+	"github.com/skilld-labs/etcd/store"
 	"github.com/coreos/go-semver/semver"
 )
 

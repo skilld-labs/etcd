@@ -23,9 +23,9 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/coreos/etcd/lease/leasepb"
-	"github.com/coreos/etcd/mvcc/backend"
-	"github.com/coreos/etcd/pkg/monotime"
+	"github.com/skilld-labs/etcd/lease/leasepb"
+	"github.com/skilld-labs/etcd/mvcc/backend"
+	"github.com/skilld-labs/etcd/pkg/monotime"
 )
 
 const (

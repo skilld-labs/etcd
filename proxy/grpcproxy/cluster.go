@@ -19,9 +19,9 @@ import (
 	"os"
 	"sync"
 
-	"github.com/coreos/etcd/clientv3"
-	"github.com/coreos/etcd/clientv3/naming"
-	pb "github.com/coreos/etcd/etcdserver/etcdserverpb"
+	"github.com/skilld-labs/etcd/clientv3"
+	"github.com/skilld-labs/etcd/clientv3/naming"
+	pb "github.com/skilld-labs/etcd/etcdserver/etcdserverpb"
 
 	"golang.org/x/net/context"
 	"golang.org/x/time/rate"

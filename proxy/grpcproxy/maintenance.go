@@ -19,8 +19,8 @@ import (
 
 	"golang.org/x/net/context"
 
-	"github.com/coreos/etcd/clientv3"
-	pb "github.com/coreos/etcd/etcdserver/etcdserverpb"
+	"github.com/skilld-labs/etcd/clientv3"
+	pb "github.com/skilld-labs/etcd/etcdserver/etcdserverpb"
 )
 
 type maintenanceProxy struct {
