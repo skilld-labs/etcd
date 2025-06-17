@@ -1,4 +1,4 @@
-module github.com/piggito/etcd/client/v3
+module github.com/skilld-labs/etcd/client/v3
 
 go 1.23.0
 
